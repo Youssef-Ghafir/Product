@@ -1,14 +1,191 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "products": [
+    {
+      "category": "laptops",
+      "title": "MacBook Pro",
+      "price": 1749,
+      "stock": 83,
+      "discount": "0",
+      "rating": "4.57",
+      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+      "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
+      "id": 6
+    },
+    {
+      "category": "laptops",
+      "title": "Samsung Galaxy Book",
+      "price": 1499,
+      "stock": 50,
+      "discount": "0",
+      "rating": 4.25,
+      "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+      "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "title": "Microsoft Surface Laptop 4",
+      "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+      "price": 1499,
+      "discountPercentage": 10.23,
+      "rating": 4.43,
+      "stock": 68,
+      "brand": "Microsoft Surface",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/8/1.jpg",
+        "https://i.dummyjson.com/data/products/8/2.jpg",
+        "https://i.dummyjson.com/data/products/8/3.jpg",
+        "https://i.dummyjson.com/data/products/8/4.jpg",
+        "https://i.dummyjson.com/data/products/8/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "HP Pavilion 15-DK1056WM",
+      "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+      "price": 1099,
+      "discountPercentage": 6.18,
+      "rating": 4.43,
+      "stock": 89,
+      "brand": "HP Pavilion",
+      "category": "laptops",
+      "thumbnail": "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
+      "images": [
+        "https://i.dummyjson.com/data/products/10/1.jpg",
+        "https://i.dummyjson.com/data/products/10/2.jpg",
+        "https://i.dummyjson.com/data/products/10/3.jpg",
+        "https://i.dummyjson.com/data/products/10/thumbnail.jpeg"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Brown Perfume",
+      "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
+      "price": 40,
+      "discountPercentage": 15.66,
+      "rating": 4,
+      "stock": 52,
+      "brand": "Royal_Mirage",
+      "category": "fragrances",
+      "thumbnail": "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/12/1.jpg",
+        "https://i.dummyjson.com/data/products/12/2.jpg",
+        "https://i.dummyjson.com/data/products/12/3.png",
+        "https://i.dummyjson.com/data/products/12/4.jpg",
+        "https://i.dummyjson.com/data/products/12/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Eau De Perfume Spray",
+      "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
+      "price": 30,
+      "discountPercentage": 10.99,
+      "rating": 4.7,
+      "stock": 105,
+      "brand": "Lord - Al-Rehab",
+      "category": "fragrances",
+      "thumbnail": "https://i.dummyjson.com/data/products/15/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/15/1.jpg",
+        "https://i.dummyjson.com/data/products/15/2.jpg",
+        "https://i.dummyjson.com/data/products/15/3.jpg",
+        "https://i.dummyjson.com/data/products/15/4.jpg",
+        "https://i.dummyjson.com/data/products/15/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Hyaluronic Acid Serum",
+      "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
+      "price": 19,
+      "discountPercentage": 13.31,
+      "rating": 4.83,
+      "stock": 110,
+      "brand": "L'Oreal Paris",
+      "category": "skincare",
+      "thumbnail": "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/16/1.png",
+        "https://i.dummyjson.com/data/products/16/2.webp",
+        "https://i.dummyjson.com/data/products/16/3.jpg",
+        "https://i.dummyjson.com/data/products/16/4.jpg",
+        "https://i.dummyjson.com/data/products/16/thumbnail.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Tree Oil 30ml",
+      "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
+      "price": 12,
+      "discountPercentage": 4.09,
+      "rating": 4.52,
+      "stock": 78,
+      "brand": "Hemani Tea",
+      "category": "skincare",
+      "thumbnail": "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
+      "images": [
+        "https://i.dummyjson.com/data/products/17/1.jpg",
+        "https://i.dummyjson.com/data/products/17/2.jpg",
+        "https://i.dummyjson.com/data/products/17/3.jpg",
+        "https://i.dummyjson.com/data/products/17/thumbnail.jpg"
+      ]
+    },
+    {
+      "category": "anime",
+      "title": "Naruto",
+      "price": "12",
+      "stock": "12",
+      "discount": "0",
+      "rating": "10",
+      "description": "Tandis que la plateforme de streaming ADN annonçait hier, lundi 28 août, l’acquisition des droits de diffusion en France pour les 4 nouveaux épisodes de l’anime NARUTO, le site officiel de la série a mis en ligne, ce mardi, un communiqué pour annoncer leur report.",
+      "thumbnail": "https://animotaku.fr/wp-content/uploads/2023/08/anime-NARUTO-4-nouveaux-episodes-inedits-report.jpeg",
+      "id": 18
+    },
+    {
+      "category": "Shoes",
+      "title": "Addidas Shoes",
+      "price": "100",
+      "stock": "10",
+      "discount": "0",
+      "rating": "4",
+      "description": "The first example we’ll look at is matching a number id, say 7253289593.\n\nThat’s a 10-digit number. To match it, you can repeat the \\d metacharacter 10 times:",
+      "thumbnail": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/15f901c90a9549d29104aae700d27efb_9366/Superstar_Shoes_Black_EG4959_01_standard.jpg",
+      "id": 19
+    },
+    {
+      "category": "Shoes",
+      "title": "OnePiece",
+      "price": "1000",
+      "stock": "0",
+      "discount": "0",
+      "rating": "5",
+      "description": "One Piece est une série de shōnen mangas créée par Eiichirō Oda. Elle est prépubliée depuis le 22 juillet 1997 dans le magazine hebdomadaire Weekly Shōnen Jump, puis regroupée en tankōbon aux éditions Shūeisha depuis le 24 décembre 1997. 106 tomes sont commercialisés au Japon en juillet 2023",
+      "thumbnail": "https://images7.alphacoders.com/132/1325984.jpeg",
+      "id": 20
+    },
+    {
+      "category": "phones",
+      "title": "Iphone 15",
+      "price": "2000",
+      "stock": "10",
+      "discount": "0",
+      "rating": "5",
+      "description": "iPhone 15 Pro is the first iPhone to support USB 3, for a huge leap in data transfer speeds and faster pro workflows than ever before. The new ...\n",
+      "thumbnail": "https://www.apple.com/v/iphone-15-pro/a/images/overview/design/lightest__boybgwifuehe_large.jpg",
+      "id": 21
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "categories": [
+    "laptops",
+    "Shoes",
+    "anime",
+    "skincare",
+    "fragrances",
+    "laptops",
+    "phones"
+  ]
 }
